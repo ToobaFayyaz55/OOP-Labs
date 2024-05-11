@@ -181,12 +181,12 @@ int Lab3_Q7(){
 int main()
 {
     Student();
-    // Lab3_Q1();
-    // Lab3_Q2();
-    // Lab3_Q3();
-    // Lab3_Q4();
-    // Lab3_Q5();
-    // Lab3_Q6();
+    Lab3_Q1();
+    Lab3_Q2();
+    Lab3_Q3();
+    Lab3_Q4();
+    Lab3_Q5();
+    Lab3_Q6();
     Lab3_Q7();
     return 0;
 }

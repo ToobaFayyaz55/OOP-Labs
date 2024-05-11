@@ -10,39 +10,39 @@ int Student(){
     return 0;
 }
 
-// int Lab2_Q1(){
-//     char a;
-//     cout << "Enter any character: ";
-//     cin >> a;
-//     if (int(a) >= 65 && int(a) <= 90) {
-//         cout << "Capital Letter" << endl;
-//     } else if (int(a) >= 97 && int(a) <= 122) {
-//         cout << "Small Letter" << endl;
-//     } else if (int(a) >= 48 && int(a) <= 57) {
-//         cout << "Number" << endl;
-//     } else{
-//         cout << "Special Character";
-//     }
-//     return 0;
-// }
+int Lab2_Q1(){
+    char a;
+    cout << "Enter any character: ";
+    cin >> a;
+    if (int(a) >= 65 && int(a) <= 90) {
+        cout << "Capital Letter" << endl;
+    } else if (int(a) >= 97 && int(a) <= 122) {
+        cout << "Small Letter" << endl;
+    } else if (int(a) >= 48 && int(a) <= 57) {
+        cout << "Number" << endl;
+    } else{
+        cout << "Special Character";
+    }
+    return 0;
+}
 
-// int Lab2_Q2(){
-//     int calls;
-//     cout<<"Enter number of calls: ";
-//     cin>>calls;
-//     double bill = 0.0;
-//     if (calls <= 100) {
-//         bill = 200.0;
-//     } else if (calls <= 150) {
-//         bill = 200.0 + (calls - 100) * 0.60;
-//     } else if (calls <= 200) {
-//         bill = 200.0 + 50 * 0.60 + (calls - 150) * 0.50;
-//     } else {
-//         bill = 200.0 + 50 * 0.60 + 50 * 0.50 + (calls - 200) * 0.40;
-//     }
-//     cout << "Monthly Telephone Bill: Rs. " << bill << endl;
-//     return 0;
-// }
+int Lab2_Q2(){
+    int calls;
+    cout<<"Enter number of calls: ";
+    cin>>calls;
+    double bill = 0.0;
+    if (calls <= 100) {
+        bill = 200.0;
+    } else if (calls <= 150) {
+        bill = 200.0 + (calls - 100) * 0.60;
+    } else if (calls <= 200) {
+        bill = 200.0 + 50 * 0.60 + (calls - 150) * 0.50;
+    } else {
+        bill = 200.0 + 50 * 0.60 + 50 * 0.50 + (calls - 200) * 0.40;
+    }
+    cout << "Monthly Telephone Bill: Rs. " << bill << endl;
+    return 0;
+}
 
 int Lab2_Q3(){
     string input;
@@ -425,20 +425,20 @@ int Lab2_Q11e(){
 int main()
 {
     Student();
-    // Lab2_Q1();
-    // Lab2_Q2();
-    // Lab2_Q3();
-    // Lab2_Q4();
-    // Lab2_Q5();
-    // Lab2_Q6();
-    // Lab2_Q7();
-    // Lab2_Q8();
-    // Lab2_Q9();
-    // Lab2_Q10();
-    // Lab2_Q11a();
-    // Lab2_Q11b();
-    // Lab2_Q11c();
-    // Lab2_Q11d();
-        Lab2_Q11e();
+    Lab2_Q1();
+    Lab2_Q2();
+    Lab2_Q3();
+    Lab2_Q4();
+    Lab2_Q5();
+    Lab2_Q6();
+    Lab2_Q7();
+    Lab2_Q8();
+    Lab2_Q9();
+    Lab2_Q10();
+    Lab2_Q11a();
+    Lab2_Q11b();
+    Lab2_Q11c();
+    Lab2_Q11d();
+    Lab2_Q11e();
     return 0;
 }
